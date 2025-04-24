@@ -70,20 +70,42 @@
                         </div>
                         <div class="input-wrapper flex-1">
                             <label for="number">Número</label>
-                            <input type="number" id="Number" name="number" value="123">
+                            <input type="number" id="number" name="number" value="123">
                         </div>
                         <div class="flex">
                             <div class="input-wrapper flex-2">
                                 <label for="city">Cidade</label>
                                 <input type="text" id="city" name="city" value="São Paulo" disabled>
                             </div>
-                            </div>
                             <div class="input-wrapper flex-1">
                                 <label for="state">Estado</label>
-                                <input type="text" id="state" name="state" disabled value="SP">
+                                <input type="text" id="state" name="state" value="SP" disabled>
                             </div>
                         </div>
                     </fieldset>
+
+                    <fieldset class="gardian">
+                        <legend>Informações do responsável</legend>
+                        <div class="input-wrapper">
+                            <label for="gardian">Nome do responsável</label>
+                            <input type="text" id="gardian" name="gardian">
+                            <small>Principal responsável legal e contato de emergência</small>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="phone">Telefone</label>
+                            <input type="text" id="phone" name="phone" placeholder="(16) 99242-2653">
+                            <small>Principal responsável legal e contato de emergência</small>
+                        </div>
+                        <div class="input-wrapper">
+                            <label for="mail">E-mail</label>
+                            <input type="text" id="mail" name="mail" placeholder="murilogcode@gmail.com" required>
+                            <div class="error">
+                                <img src="assets/icons/alert.svg" alt="ícone de alerta vermelh">
+                                <span>Insira um e-mail válido</span>
+                            </div>
+                        </div>
+                    </fieldset>
+
                 </form>
             </div>
         </main>
