@@ -15,6 +15,7 @@
 
     --surface-primary: #ffffff;
     --surface-secondary: #FEE7D6;
+    --surface-disabled: #E7E5E4;
 
     --stroke-defaut: #d6d3d1;
     --stroke-hightlight: #f3541c;
@@ -31,4 +32,13 @@ h1, h2 {
 img {
     max-width: 100%;
     height: auto;
+}
+.flex {
+    display: flex;
+}
+.flex-1 {
+    flex: 1
+}
+.flex-2 {
+    flex: 2;
 }
